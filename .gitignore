@@ -22,3 +22,23 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# 1. File Konfigurasi Rahasia CLASP
+# JANGAN PERNAH mengunggah file ini. Ini berisi ID Skrip.
+.clasp.json
+
+# 2. Folder Dependensi Node.js
+# Folder ini berisi semua library pihak ketiga yang diinstal oleh npm.
+# Folder ini sangat besar dan harus diregenerasi menggunakan 'npm install'.
+node_modules/
+
+# 3. File Log dan Cache
+# File yang mungkin dibuat oleh sistem Anda (misalnya macOS) atau NPM.
+npm-debug.log
+.DS_Store
+
+# 4. Folder Tambahan (Opsional, tergantung editor/OS)
+# Folder atau file lain yang tidak perlu diunggah.
+/dist
+
+gemini.md
